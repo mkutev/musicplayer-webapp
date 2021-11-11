@@ -40,10 +40,3 @@ var playSong = function() {
 
 	musicPlaying = true; 
 }
-
-
-
-
-
-
-
