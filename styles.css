@@ -1,14 +1,28 @@
+html {
+	height: 100%;
+	display: flex;
+	background-color: #000;
+}
+
+body {
+	width: 100%;
+	max-width: 800px;
+	margin: auto;
+	padding: 1em;
+	color: #ffffff;
+}
+
 #song-list {
 	display: flex;
 	flex-direction: column;
-	padding: 0;
+	padding: 2em;
+	list-style: none;
+	border: 1px solid rgba(255,255,255,0.3);
+	border-radius: 3px;
 }
 
 #audio-player {
 	display: block;
-	position: absolute;
-	bottom: 0;
-	left: 0;
 	width: 100%;
 }
 
