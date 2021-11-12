@@ -22,7 +22,7 @@ body {
 }
 
 #audio-player {
-	display: block;
+	display: none;
 	width: 100%;
 }
 
@@ -33,4 +33,16 @@ body {
 
 .playing {
 	font-weight: bold;
+}
+
+#controls {
+	display: flex;
+	justify-content: center;
+}
+
+#controls button {
+	background-color: transparent;
+	border-color: transparent;
+	color: #ffffff;
+	cursor: pointer;
 }

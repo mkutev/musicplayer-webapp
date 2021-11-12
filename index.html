@@ -18,9 +18,13 @@
 
 			<ul id='song-list'></ul>
 
-			<audio id="audio-player" type="audio/mpeg" controls>
-				<source id="audio-source" src="">
-			</audio>
+			<div id="controls">
+				<button id="btn-prev" onclick="prevSong()">prev</button>
+				<button id="btn-play" onclick="playPause()">play</button>
+				<button id="btn-next" onclick="nextSong()">next</button>
+			</div>
+
+			<audio id="audio-player" type="audio/mpeg" src=""></audio>
 
 		</main>
 		<script src="musicplayer.js"></script>
